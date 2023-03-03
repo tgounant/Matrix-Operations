@@ -64,9 +64,9 @@ int main(int argc, char *argv[])
     matrix_print(inv,3,3);
 
 
-    cout << "Transpose:" << endl;
+    cout << "Transposition:" << endl;
 
-    double* tra = matrix_transpose(A,3,3);
+    double* tra = matrix_transposition(A,3,3);
 
     matrix_print(tra,3,3);
 

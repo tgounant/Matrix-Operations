@@ -22,7 +22,7 @@ double* matrix_multiplication(double* A, double* B, unsigned int rows_A, unsigne
 
 double* matrix_inversion(double* A, unsigned int rows, unsigned int cols);
 
-double* matrix_transpose(double* A, unsigned int rows, unsigned int cols);
+double* matrix_transposition(double* A, unsigned int rows, unsigned int cols);
 
 void matrix_print(double* A, unsigned int rows, unsigned int cols);
 

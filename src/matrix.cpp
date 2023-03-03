@@ -13,7 +13,7 @@ using namespace std;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
-    The matrix M of dimension n rows * m columns is in the form
+    The matrix M of dimension n rows and m columns is in the form
     
     a11 a12 a13  .   .  a1m
     a21 a22 a23  .   .   .
@@ -215,7 +215,7 @@ double* matrix_inversion(double* A, unsigned int rows, unsigned int cols)
 }
 
 
-double* matrix_transpose(double* A, unsigned int rows, unsigned int cols)
+double* matrix_transposition(double* A, unsigned int rows, unsigned int cols)
 {
     double* result = new double[cols * rows];
 
